@@ -1,0 +1,39 @@
+/* Universal Formatting */
+.subheadings 
+{
+    font-size: 30px;
+}
+
+.calcblock 
+{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.calc 
+{
+    padding: 5%;
+}
+
+.btn 
+{
+    margin-bottom: 8px;
+}
+
+.img
+{
+    margin-bottom: 10px;
+}
+
+/* Responsive media queries */
+@media only screen and (max-width: 600px)
+{
+    .calcblock
+    {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}

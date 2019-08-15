@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Financial Calculators</title>
+    <link href="css/styles.css" rel="stylesheet" />
+    
+
+  </head>
+  <body>
+    
+    <!-- NavBar Start-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="mortgage.html">Mortgage</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="futurevalue.html">Future Value</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="presentvalue.html">Present Value</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- Main Content Start -->
+    <main>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">Future Value Calculator</h1>
+                <p class="lead">Here you can make use of our easy-to-use calculator to determine the future value of a deposit amount. Simply enter the principal amount, interest rate, and number of years to get the future value of your deposit!</p>
+            </div>
+        </div>
+
+        <!-- Calculator Block Start -->
+        <div class="container">
+            <div class="row calcblock">
+                <div class="col-md border border-dark rounded-lg">
+                    <form id="futValForm" name="futValForm" class="calc" method="get" autocomplete="off">
+                        <div class="form-group">
+                            <label for="principalAmount">Principal</label>
+                            <input type="text" class="form-control" name="principalAmount" id="principalAmount" placeholder="$1,000.00">
+                        </div>
+                        <div class="form-group">
+                            <label for="interestRate">Interest Rate %</label>
+                            <input type="text" class="form-control" name="interestRate" id="interestRate" placeholder="3">
+                        </div>
+                        <div class="form-group">
+                            <label for="termLength">Number of Years</label>
+                            <input type="text" class="form-control" name="termLength" id="termLength" placeholder="10">
+                        </div>
+                        <button disabled="disabled" id="futValCalc" type="button" class="btn btn-outline-dark">Calculate Future Value</button>
+                        <input id="resetButton" type="reset" value="Reset Fields" class="btn btn-outline-danger float-right">
+                    </form>
+                    <div class="calc">    
+                        <div class="form-group">
+                            <label for="futureValue">Deposit Value</label>
+                            <input type="text" class="form-control" name="futureValue" id="futureValue" placeholder="$1,349.35" disabled>
+                        </div>
+                        <div class="form-group">
+                            <label for="netInterest">Interest Earned</label>
+                            <input type="text" class="form-control" name="netInterest" id="netInterest" placeholder="$349.35" disabled>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="scripts/futureValue.js"></script>
+</body>
+</html>
