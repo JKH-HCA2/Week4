@@ -1,0 +1,12 @@
+[
+    {"id":1,"dept":"CompSci","courseNum":101,"courseName":"HTML5 and CSS3","instructor":"Rob","startDate":"July 8","numDays":10},
+    {"id":2,"dept":"CompSci","courseNum":102,"courseName":"JavaScript","instructor":"Dana","startDate":"July 22","numDays":35},
+    {"id":3,"dept":"CompSci","courseNum":201,"courseName":"More Things","instructor":"Rob","startDate":"Sep 9","numDays":15},
+    {"id":4,"dept":"Math","courseNum":"101","courseName":"Algebra","instructor":"Michelle","numDays":"10"},
+    {"id":5,"dept":"CompSci","courseNum":"301","courseName":"Calcullus","instructor":"Dana","numDays":"5"},
+    {"id":6,"dept":"CompSci","courseNum":"201","courseName":"Building Robots","instructor":"Elisha","numDays":"5"},
+    {"id":7,"dept":"Math","courseNum":"201","courseName":"Statistics","instructor":"Robert","numDays":"6"},
+    {"id":8,"dept":"Math","courseNum":"301","courseName":"Differential Equations","instructor":"William","numDays":"20"},
+    {"id":9,"dept":"CompSci","courseNum":"211","courseName":"Python","instructor":"Dana","numDays":"8"},
+    {"id":10,"dept":"CompSci","courseNum":"221","courseName":"C#","instructor":"Rob","numDays":"10"}
+    ]
